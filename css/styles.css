@@ -1,0 +1,173 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/*1 rem = 10px*/
+html{
+    font-size:62.5%;
+}
+
+body{
+  font-family: "Playfair Display",serif;
+  font-size: 1.6rem;
+  color: black;
+  background-color:#F2F0EF;
+
+  display:flex;
+  flex-direction:column;
+  min-height: 100vh;
+}
+
+main{
+    width: 80%;
+    margin: auto;
+    padding-bottom: 2rem;
+    flex:1;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+h1{
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: 1.15;
+    margin: 3rem 0;
+}
+
+h2{
+    font-size: 2.4 rem;
+    font-weight: 700;
+    line-height: 1.2;
+    text-align: center;
+    margin: 3rem 0;
+}
+
+h3{
+    color: #9D00FF;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1.25;
+    text-align:left;
+    text-decoration: underline;
+    margin: 3rem 0;
+}
+
+h1,h2{
+    color:#7F00FF;
+}
+.btn{
+    border: none;
+    font-size: 1.6rem;
+    font-weight: bold;
+    padding: 1.6rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    background-color:#D080FF;
+}
+
+article{
+    border: solid black;
+    width:25%;
+    margin: 5rem 0;
+}
+
+header,footer{
+    background:#D4D4D4;
+    color: black;
+    width: 100%;
+}
+header{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+footer{
+    padding: 1rem 4rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header-nav ul li a{
+    text-decoration: none;
+    font-size: 3rem;
+    color: inherit;
+    display: inline-block;
+    padding: 2rem;
+
+}
+
+.div-logo{
+    margin-left: 2rem;
+}
+
+.div-logo img{
+    width: 10rem;
+    height: 10rem;
+}
+
+.header-nav{
+    margin-right:2rem;
+}
+
+.header-nav ul, footer .footer-list{
+    list-style: none;
+   display: flex;
+   gap: 2rem;
+}
+
+.footer-list li{
+    padding: 1 rem;
+}
+
+.footer-list img{
+    width: 11rem;
+    height: 11rem;
+    padding: 1.5rem;
+}
+
+.inicio{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-wrap: wrap;
+}
+
+.inicio h1{
+    width: 100%;
+    text-align: center;
+}
+
+.parrafo{
+    width: 80%;
+    text-align:justify;
+    font-size: 2rem;
+    padding: 3rem;
+}
+
+.contenedor-tarjetas{
+    display:flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap:wrap;
+}
+
+.card{
+    background-color: #FAFAFA;
+    width: 30rem;
+    border-radius:1rem;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:2rem;
+    padding-bottom:2rem;
+    overflow:hidden;
+}
+.card img{
+    width:100%;
+    height:20rem;
+}
