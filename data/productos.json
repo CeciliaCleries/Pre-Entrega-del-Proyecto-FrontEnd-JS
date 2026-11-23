@@ -1,0 +1,51 @@
+[
+    {
+        "id":"1",
+        "nombre":"Tarot",
+        "descripcion": "Una sesión de lectura de tarot es un espacio de guía, reflexión y autoconocimiento donde las cartas actúan como un espejo de tu energía actual.",
+        "precio": 15000,
+        "img": "img/tarot.jpg"
+    },
+    {
+        "id":"2",
+        "nombre":"Numerología",
+        "descripcion": "La numerología es la ciencia que estudia el significado de los números y su influencia en nuestra vida.",
+        "precio": 50000,
+        "img": "img/numerologia.jpg"
+    },
+    {
+        "id":"3",
+        "nombre": "Angeología",
+        "descripcion": "La angeología es la práctica de comunicarse con los ángeles y utilizar su energía para la sanación y el crecimiento espiritual.",
+        "precio": 30000,
+        "img": "img/angeologia.jpg"
+    },
+    {
+        "id":"4",
+        "nombre": "Meditación",
+        "descripcion": "La meditación es una práctica que ayuda a calmar la mente, reducir el estrés y mejorar la concentración.",
+        "precio": 20000,
+        "img": "img/meditación.jpg"
+    },
+    {
+        "id":"5",
+        "nombre": "Músico y ArteTerapia Holistico",
+        "descripcion": "La música y el arte terapia son prácticas que combinan la expresión creativa con el proceso de sanación.",
+        "precio": 30000,
+        "img": "img/Musico y Arte Terapia Holistico.jpg"
+    },
+    {
+        "id":"6",
+        "nombre": "Limpieza Enérgetica del Hogar y Personal",
+        "descripcion": "La limpieza enérgetica es una práctica que ayuda a eliminar la energía negativa del entorno y del cuerpo.",
+        "precio": 40000,
+        "img": "img/Limpieza Enérgetica.jpg"
+    },
+    {
+        "id":"7",
+        "nombre": "Procesos Álmicos",
+        "descripcion": "Los procesos álmicos son prácticas espirituales que ayudan a integrar y armonizar las diferentes partes de nuestro ser.",
+        "precio": 45000,
+        "img": "img/Procesos Álmicos.jpg"
+    }
+]
