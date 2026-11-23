@@ -25,7 +25,7 @@
         "nombre": "Meditación",
         "descripcion": "La meditación es una práctica que ayuda a calmar la mente, reducir el estrés y mejorar la concentración.",
         "precio": 20000,
-        "img": "img/meditación.jpg"
+        "img": "img/meditacion.jpg"
     },
     {
         "id":"5",
